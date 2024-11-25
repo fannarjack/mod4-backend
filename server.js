@@ -30,7 +30,7 @@ app.get("/thor",(req,res)=>{
 })
 
 app.get("/loki",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=loki", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/loki.json?slug=loki", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -39,7 +39,7 @@ app.get("/loki",(req,res)=>{
 })
 
 app.get("/freyja",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=freyja", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/freyja.json?slug=freyja", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -48,7 +48,7 @@ app.get("/freyja",(req,res)=>{
 })
 
 app.get("/baldur",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=baldur", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/baldur.json?slug=baldur", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -57,7 +57,7 @@ app.get("/baldur",(req,res)=>{
 })
 
 app.get("/heimdall",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=heimdall", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/heimdall.json?slug=heimdall", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -66,7 +66,7 @@ app.get("/heimdall",(req,res)=>{
 })
 
 app.get("/freyr",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=freyr", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/freyr.json?slug=freyr", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -75,7 +75,7 @@ app.get("/freyr",(req,res)=>{
 })
 
 app.get("/tyr",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=tyr", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/tyr.json?slug=tyr", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -84,7 +84,7 @@ app.get("/tyr",(req,res)=>{
 })
 
 app.get("/njord",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=heimdall", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/njord.json?slug=njord", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -93,7 +93,7 @@ app.get("/njord",(req,res)=>{
 })
 
 app.get("/nerthus",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=nerthus", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/nerthus.json?slug=nerthus", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
@@ -102,7 +102,7 @@ app.get("/nerthus",(req,res)=>{
 })
 
 app.get("/idun",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/thor.json?slug=idun", ).then(r=>r.json()).then(data=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/idun.json?slug=idun", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
