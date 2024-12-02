@@ -38,8 +38,8 @@ app.get("/loki",(req,res)=>{
   })  
 })
 
-app.get("/freyja",(req,res)=>{
-  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/freyja.json?slug=freyja", ).then(r=>r.json()).then(data=>{
+app.get("/freya",(req,res)=>{
+  fetch("https://mythopedia.com/_next/data/Gq-h2_6Lxzt7XraQFkOT0/topics/freya.json?slug=freya", ).then(r=>r.json()).then(data=>{
     console.log(data)
 
     res.json(data)
